@@ -102,7 +102,6 @@
 
 .card-footer {
   grid-area: ft;
-  border-radius: 25px;
   max-height: 5rem;
   margin-top: 2rem;
 }
