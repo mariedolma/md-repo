@@ -58,9 +58,7 @@ body {
   display: grid;
   margin: auto; 
   font-family: "Montserrat", 'arial', sans-serif;
-  background-color: white;
-  border: none;
-  }
+}
 
 .box {
   display: grid;
