@@ -6,8 +6,8 @@
 @media(min-width:300px) and (max-width:600px) {
   .container-blog {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-areas: 
     "hd"
     "main"
