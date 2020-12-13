@@ -95,17 +95,17 @@
 
 .subscribe {
   display: grid;
-  
+  padding: 1em; 
 }
 
 .subscribe__field {
   font-style: italic;
+  padding: 0.5em;
 }
 
 .subscribe__button {
   background: radial-gradient(circle, rgba(3,149,130,1) 0%, rgba(0,183,190,1) 100%);
   padding: 0.5em 1.9em;
-  border-radius: 25px;
   font-size: 1.4em;
   cursor: pointer;
   color: #FFFFFF;
