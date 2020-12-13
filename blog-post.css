@@ -20,7 +20,7 @@
 	#post-img {
 		display: grid; 
 		background-size: contain;
-		max-width: 300px;
+		max-width: 450px;
 		height: auto;
 		border: 10px solid white;
 	}
@@ -86,7 +86,7 @@
 	#post-img {
 		display: grid; 
 		background-size: contain;
-		max-width: 800px;
+		max-width: 700px;
 		border: 10px solid white;
 		height: auto;
 	}
