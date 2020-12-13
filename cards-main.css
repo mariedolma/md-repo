@@ -110,7 +110,7 @@
   flex: 1;
 }
 
-.card-footer {
+#card-footer {
   border-top: 2px solid #e7e7e7;
   margin: .5rem 0 0;
   max-height: 25px;
