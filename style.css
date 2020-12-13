@@ -56,7 +56,8 @@
 
 body {
   display: grid;
-  margin: auto; 
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Montserrat", 'arial', sans-serif;
 }
 
