@@ -94,26 +94,17 @@
 }
 
 .subscribe {
-  display: flex;
-  flex-direction: column;
-}
-
-.subscribe__label {
-  padding-left: 5em;
+  display: grid;
+  
 }
 
 .subscribe__field {
   font-style: italic;
-  padding-left: 5em;
-  padding-right: 5em;
-  border: 1px solid black;
-
 }
 
 .subscribe__button {
   background: radial-gradient(circle, rgba(3,149,130,1) 0%, rgba(0,183,190,1) 100%);
   padding: 0.5em 1.9em;
-  margin: 2em;
   border-radius: 25px;
   font-size: 1.4em;
   cursor: pointer;
