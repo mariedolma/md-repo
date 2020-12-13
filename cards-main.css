@@ -74,7 +74,6 @@
 }
 
 .card-content {
-  font-size: .75rem;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -111,10 +110,10 @@
   flex: 1;
 }
 
-.card-footer {
+#card-footer {
   border-top: 2px solid #e7e7e7;
   margin: .5rem 0 0;
-  height: 25px;
+  max-height: 25px;
   font-size: 0.8rem;
 }
 
