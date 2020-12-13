@@ -4,8 +4,7 @@
 
 @media(min-width:300px) and (max-width:600px) {
 	.post-content {
-		display: flex;
-		flex-direction: column;
+		display: grid;
 		height: auto;
 		border: 1px solid white;
 		border-radius: 5px;
@@ -14,11 +13,10 @@
 		border-width: 1em;
 		align-items: center;
 		justify-content: center;
-		flex: 1;
 	}
 
 	#post-img {
-		display: grid; 
+		display: flex; 
 		background-size: contain;
 		min-width: 300px;
         max-width: 500px;
@@ -38,8 +36,7 @@
 
 @media(min-width:601px) and (max-width:900px) {
 	.post-content {
-		display: flex;
-		flex-direction: column;
+		display: grid;
 		height: auto;
 		border: 1px solid #F9A440;
 		box-shadow: 0 9px 25px -5px silver;
@@ -49,11 +46,10 @@
 		box-sizing: border-box;
 		align-items: center;
 		justify-content: center;
-		flex: 1;
 	}
 
 	#post-img {
-		display: grid; 
+		display: flex; 
 		background-size: contain;
 		min-width: 500px;
         max-width: 700px;
@@ -73,8 +69,7 @@
 
 @media(min-width:901px) {
 	.post-content {
-		display: flex;
-		flex-direction: column;
+		display: grid;
 		height: auto;
 		border: 1px solid #F9A440;
 		box-shadow: 0 9px 25px -5px silver;
@@ -84,11 +79,10 @@
 		box-sizing: border-box;
 		align-items: center;
 		justify-content: center;
-		flex: 1;
 	}
 
 	#post-img {
-		display: grid; 
+		display: flex; 
 		background-size: contain;
 		max-width: 700px;
 		border: 10px solid white;
