@@ -3,7 +3,7 @@
 }
 
 @media(min-width:300px) and (max-width:600px) {
-	.post-content {
+	.post-card {
 		display: flex;
 		flex-direction: column;
 		max-width: 550px;
@@ -15,7 +15,6 @@
 		border-width: 1em;
 		align-items: center;
 		justify-content: center;
-		flex: 1;
 	}
 
 	#post-img {
@@ -37,7 +36,7 @@
 }
 
 @media(min-width:601px) and (max-width:900px) {
-	.post-content {
+	.post-card {
 		display: flex;
 		flex-direction: column;
 		max-width: 850px;
@@ -50,7 +49,6 @@
 		box-sizing: border-box;
 		align-items: center;
 		justify-content: center;
-		flex: 1;
 	}
 
 	#post-img {
@@ -72,7 +70,7 @@
 }
 
 @media(min-width:901px) {
-	.post-content {
+	.post-card {
 		display: flex;
 		flex-direction: column;
 		height: auto;
@@ -84,7 +82,6 @@
 		box-sizing: border-box;
 		align-items: center;
 		justify-content: center;
-		flex: 1;
 	}
 
 	#post-img {
