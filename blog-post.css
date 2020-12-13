@@ -3,7 +3,7 @@
 }
 
 @media(min-width:300px) and (max-width:600px) {
-	.post-content {
+	.card-blog {
 		display: flex;
 		flex-direction: column;
 		height: auto;
@@ -27,7 +27,7 @@
 }
 
 @media(min-width:601px) and (max-width:900px) {
-	.post-content {
+	.card-blog {
 		display: flex;
 		flex-direction: column;
 		height: auto;
@@ -45,14 +45,14 @@
 	#post-img {
 		display: grid; 
 		background-size: contain;
-		max-width: px;
+		max-width: 500px;
 		height: auto;
 		border: 10px solid white;
 	}
 }
 
 @media(min-width:901px) {
-	.post-content {
+	.card-blog {
 		display: flex;
 		flex-direction: column;
 		height: auto;
