@@ -6,6 +6,7 @@
 	.post-content {
 		display: flex;
 		flex-direction: column;
+		max-width: 550px;
 		height: auto;
 		border: 1px solid white;
 		border-radius: 5px;
@@ -20,9 +21,18 @@
 	#post-img {
 		display: grid; 
 		background-size: contain;
-		max-width: 300px;
+		max-width: 500px;
 		height: auto;
 		border: 10px solid white;
+	}
+
+	.post {
+		display: flex;
+		max-width: 500px;
+		height: auto;
+		margin-top: 1.5em;
+		flex-direction: column;
+		text-align: justify;
 	}
 }
 
@@ -30,6 +40,7 @@
 	.post-content {
 		display: flex;
 		flex-direction: column;
+		max-width: 850px;
 		height: auto;
 		border: 1px solid #F9A440;
 		box-shadow: 0 9px 25px -5px silver;
@@ -45,9 +56,18 @@
 	#post-img {
 		display: grid; 
 		background-size: contain;
-		max-width: 500px;
+		max-width: 700px;
 		height: auto;
 		border: 10px solid white;
+	}
+
+	.post {
+		display: flex;
+		max-width: 700px;
+		height: auto;
+		margin-top: 1.5em;
+		flex-direction: column;
+		text-align: justify;
 	}
 }
 
@@ -74,16 +94,15 @@
 		border: 10px solid white;
 		height: auto;
 	}
-}
 
-.post {
-	display: flex;
-	min-width: 300px;
-	max-width: 700px;
-	height: auto;
-	margin-top: 1.5em;
-	flex-direction: column;
-	text-align: justify;
+	.post {
+		display: flex;
+		max-width: 700px;
+		height: auto;
+		margin-top: 1.5em;
+		flex-direction: column;
+		text-align: justify;
+	}
 }
 
 #top-content {
