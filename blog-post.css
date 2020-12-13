@@ -19,7 +19,7 @@
 	}
 
 	#post-img {
-		display: grid; 
+		display: flex; 
 		background-size: contain;
 		max-width: 500px;
 		height: auto;
@@ -54,7 +54,7 @@
 	}
 
 	#post-img {
-		display: grid; 
+		display: flex; 
 		background-size: contain;
 		max-width: 700px;
 		height: auto;
@@ -88,7 +88,7 @@
 	}
 
 	#post-img {
-		display: grid; 
+		display: flex; 
 		background-size: contain;
 		max-width: 800px;
 		border: 10px solid white;
