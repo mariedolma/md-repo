@@ -87,14 +87,18 @@
   box-shadow: 0 9px 25px -5px silver;
 }  
 .newsletter {
-  flex-direction: column;
   color: blue;
   padding: 0.5em;
   font-style: italic; 
+  text-align: center;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
 }
 
 .subscribe__label {
-  display: flex;
   padding-left: 5em;
 }
 
