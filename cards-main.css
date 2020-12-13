@@ -59,6 +59,7 @@
   .cards {
     display: flex;
     flex-direction: row; 
+    min-width: 901px;
   }
 
   .card {
