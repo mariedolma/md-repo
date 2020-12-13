@@ -36,6 +36,13 @@ nav {
   font-size: 1.5rem;
 }
 
+#title {
+  display: grid;
+  grid-auto-flow:column;
+  justify-content: start;
+  align-items: center;
+}
+
 .description {
   font-family: 'Monserrat', 'arial', sans-serif;
 }
