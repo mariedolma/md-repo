@@ -60,6 +60,7 @@
     flex-direction: row; 
     min-width: 901px;
   }
+
   .card {
     width: 600px;
     height: auto;
@@ -98,6 +99,13 @@
     font-weight: 600;
     text-transform: uppercase;
   }
+
+.card-footer {
+  grid-area: ft;
+  border-radius: 25px;
+  max-height: 5rem;
+  margin-top: 2rem;
+}
 
 .panel.card-panel .panel-header {
   background-color: #ffffff;

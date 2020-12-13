@@ -19,15 +19,7 @@
     align-content: center;
     margin: auto;
   }
-
-body {
-  display: grid;
-  margin: auto; 
-  font-family: "Montserrat", 'arial', sans-serif;
-  background-color: white;
-  border: none;
-  }
-} 
+}
 
 @media(min-width:601px) and (max-width:900px) {
   .container {
@@ -64,10 +56,11 @@ body {
 
 body {
   display: grid;
-  padding: 2rem;
   margin: auto; 
   font-family: "Montserrat", 'arial', sans-serif;
-}
+  background-color: white;
+  border: none;
+  }
 
 .box {
   display: grid;
