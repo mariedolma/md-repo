@@ -110,13 +110,6 @@
   flex: 1;
 }
 
-#card-footer {
-  border-top: 2px solid #e7e7e7;
-  margin: .5rem 0 0;
-  max-height: 25px;
-  font-size: 0.8rem;
-}
-
 .post-meta {
   margin-top: 1rem;
 }
