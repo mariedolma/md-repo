@@ -17,17 +17,17 @@ nav {
   padding: 0 150px;
 }
 
+.nav-links a {
+  font-size: 24px;
+  font-family: 'Monserrat', 'arial', sans-serif;
+}
+
 #nav-links {
   display: grid;
   justify-content: right;
   align-content: center;
   grid-auto-flow:column;
   grid-gap: 1.5em;
-}
-
-.nav-links a {
-  font-size: 24px;
-  font-family: 'Monserrat', 'arial', sans-serif;
 }
 
 .name {
