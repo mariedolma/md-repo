@@ -76,7 +76,8 @@
 
 figure {
   flex: 0 0 auto;
-  padding-right: 10px;
+  font-size: 0.8em;
+  text-align: center;
 }
 
 figure, p {
