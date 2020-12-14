@@ -107,6 +107,13 @@ q {
  color: orange; 
 }
 
+figure {
+  flex: 0 0 auto;
+  padding-right: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
 #top-content {
   display: flex;
   flex-direction: row;
